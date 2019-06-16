@@ -173,30 +173,8 @@ For detailed schedule, see the [Daily](daily.html) tab of this page.
 
 
 
-# Academic Email Etiquette
----
 
-* Check the school email address on a regular basis. You can simply forward its content
-to another email account that you use regularly.
-
-* Use your school's email account to send emails to professors, instructors, TA's, graders,
-administrators, etc. OR make sure that your email address contains your true name,
-not "frabjous@gmail.com", "BabyGurl@yahoo.com" or some other cool alias.
-
-* Start your email with proper salutations! Use the correct titles (Professor, Dr., etc.)
-and spell first and last names correctly. If you are on the first name basis with your instructors,
-use their names, not "Hey". For example: "Dear Professor Drummer" or "Dear Robert", not "Hey Bob".
-
-* Sign your name under the body of your email, otherwise you expect people to read emails from anonymous.
-
-* Do not write everything in upper-case letters. Do not write everything in lower-case letters.
-
-* Make sure you included everything you wanted before hitting send. Don't send three emails
-one after another because you forgot something in the first one.
-
-* Proofread the text in your email before sending it. Most of the email clients check for
-typos, but they cannot tell if your email makes much sense. Read it, before you send it.
-
+{% include   {{ site.email_etiquette }} %}
 
 
 <br>
