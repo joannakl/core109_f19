@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p class="alert" markdown="1">
-This class is designed to satisfy the <a href="http://cas.nyu.edu/core/about-the-program/the-four-parts-of-the-core.html#scientific">Quantitative Reasoning</a> requirement
+This class is designed to satisfy the <a href="http://cas.nyu.edu/core/about-the-program/the-five-parts-of-the-core.html#scientific">Quantitative Reasoning</a> requirement
 of <a href="http://cas.nyu.edu/core.html">the College Core Curriculum</a>. <br/>
 It should not be taken by students who satisfy any of the <a href="http://cas.nyu.edu/core/about-the-program/exemptions-substitutions-and-proficiency-exams.html#quantitative">exemptions or substitutions</a>. <br>
 This class covers basics of programming - students who took college level programming classes
