@@ -70,7 +70,7 @@ book_opt_2_author: "Ben Stephenson "
 book_opt_2_edition: ""
 book_opt_2_link: "http://openbookproject.net/thinkcs/python/english3e/"
 book_opt_2_note: ""
-book_opt_2_image: "http://openbookproject.net/thinkcs/python/english3e/_images/gasp_lessons.png"
+book_opt_2_image: "resources/images/howToThinkLikeAComputerScientist.png"
 
 
 book_opt_3: "The Python Workbook, "
@@ -129,7 +129,7 @@ book_opt_8_author: "Denny Burzynski and Wade Ellis, "
 book_opt_8_edition: ""
 book_opt_8_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=154"
 book_opt_8_note: "free open source book"
-book_opt_8_image: "https://open.umn.edu/opentextbooks/Images/0000FundOfMat.png"
+book_opt_8_image: "resources/images/FundamentalsOfMathematics.png"
 
 
 
@@ -138,7 +138,7 @@ book_opt_9_author: "Douglas Shafer and Zhiyi Zhang, "
 book_opt_9_edition: ""
 book_opt_9_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=135"
 book_opt_9_note: "free open source book"
-book_opt_9_image: "https://open.umn.edu/opentextbooks/Images/9781453344873.png"
+book_opt_9_image: "resources/images/IntroductoryStatistics.png"
 
 
 
@@ -147,7 +147,7 @@ book_opt_10_author: "Lynn Marecek and MaryAnne Anthony-Smith,  "
 book_opt_10_edition: ""
 book_opt_10_link: "https://open.umn.edu/opentextbooks/BookDetail.aspx?bookId=241"
 book_opt_10_note: "free open source book"
-book_opt_10_image: "https://open.umn.edu/opentextbooks/Images/1938168992.png"
+book_opt_10_image: "resources/images/Prealgebra.png"
 
 
 book_opt_11: "Think Python, "
