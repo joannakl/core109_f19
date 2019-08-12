@@ -44,7 +44,7 @@ There are no course prerequisites for this class. But there are some requirement
 * positive attitude,
 * willingness to learn,
 * curiosity,
-* being able to wakeup early enough to attend the 9:30am class three times a week.
+* being able to wake up early enough to attend the 9:30am class three times a week.
 
 # Grading
 ---
@@ -52,8 +52,8 @@ There are no course prerequisites for this class. But there are some requirement
 Your grade will be based on:
 
 * exams (75%): two mid-semester exams (20% each) and the final exam (35%),  
-* quizzes (5%): online quizzes based on the assigned readings and tutorials
-* weekly labs (20%): assignments given during the recitations that you will need to finish at home.
+* weekly labs (20%): assignments given during the recitations that you will need to finish at home,
+* participation (5%): class attendance, participation in class discussions, participation in group activities
 
 Grades will be determined using the following scale:
 
@@ -74,14 +74,14 @@ The grade of *Incomplete* is reserved for students who, for legitimate and docum
 
 # Assignments
 ---
-There will be weekly assignments/labs. Each week in the recitation you will be given a project to work one. The recitations will be the time to discuss the assignments and come up with a plan of action for solutions. Usually, you will get a chance to start working on the project during the recitation. You will need to finish it on your own during the next week.
+There will be weekly assignments/labs. Each week in the recitation you will be given a project to work on. The recitations will be the time to discuss the assignments and come up with a plan of action for solutions. Usually, you will get a chance to start working on the project during the recitation. You will need to finish it on your own during the next week.
 
 All assignments will count towards your final grade (I do not drop any assignment grades).
 
 *No assignments can be accepted after the last day of classes.*
 
 **Challenging assignment grade:**
-You can challenge your grade on any assignment. To do so, you need to come to see me during the office hours, or schedule an appointment.
+You can challenge your grade on any assignment. To do so, you need to come to see me during the office hours, or schedule an appointment. This should be done as soon as the grades are returned, not two weeks later or at the end of the semester.
 
 
 
@@ -98,12 +98,12 @@ to talk to me as soon as possible (trying to excuse an exam absence a week after
 
 # Academic Integrity Policy
 ---
-
+<!--
 I use [MOSS](http://theory.stanford.edu/~aiken/moss/)
 (a system for detecting software plagiarism) to make sure that the
 submitted assignments are not duplicates of one another. Your code
 has to be your own.
-
+-->
 
 I follow the department's
 [academic integrity rules](http://cs.nyu.edu/webapps/content/academic/undergrad/academic_integrity).
@@ -134,16 +134,6 @@ them to the tutors or office hours, if you want to help them)
 * Explaining how to use systems or tools
 * Helping others with high-level design issue
 
-# Exams
----
-
-There will be a midterm and a final exam. All exams are cumulative.
-
-**Missing an exam:** There will be no make-up exams. Failure to take an exam counts as a zero grade on that exam.
-The only exception to this rule is for students who have a legitimate serious medical or personal emergency (documented).
-These students need to talk to me as soon as possible (trying to excuse an exam absence three weeks after it happened will not work).
-
-
 
 # Topics Covered
 ---
@@ -151,8 +141,8 @@ These students need to talk to me as soon as possible (trying to excuse an exam 
 Mathematics topics covered:
 
 * Counting
-* Logarithms and Exponentials
-* Probability
+* Exponentials and Logarithms
+* Basics of Probability
 * Trigonometry
 
 Coding topics covered:
