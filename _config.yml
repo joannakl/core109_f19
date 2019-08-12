@@ -80,7 +80,8 @@ book_opt_3_link: ""
 book_opt_3_note: "available for download for NYU students through NYU Libraries: <br>
 1) login to NYU Classes using your net ID<br>
 2) go to Research tab <br>
-3) under NYU Libraries, use the search box to search for this title <br>
+3) under NYU Libraries, use the search box to search for this title <br>"
+book_opt_3_image: "resources/images/ThePythonWorkbook.jpg"
 
 
 book_opt_4: "A Byte of Python, "
