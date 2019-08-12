@@ -77,15 +77,10 @@ book_opt_3: "The Python Workbook, "
 book_opt_3_author: "Chris Mayfield, Allen Downey, "
 book_opt_3_edition: ""
 book_opt_3_link: ""
-book_opt_3_note: "available for download for NYU students through NYU Libraries:
-1) login to NYU Classes using your net ID
-2) go to Research tab
-3) under NYU Libraries, select Database A-Z
-4) search for *SpringerLink* - this should return a single result, follow the link
-5) if asked, select NYU as you institution
-6) search for *The Python Workbook* - click on the link (should be first result)
-7) select either PDF or ePub formats to download (you can also download one chapter at a time or view it in your browser)"
-book_opt_3_image: "https://images.springer.com/sgw/books/medium/9783319142395.jpg"
+book_opt_3_note: "available for download for NYU students through NYU Libraries: <br>
+1) login to NYU Classes using your net ID<br>
+2) go to Research tab <br>
+3) under NYU Libraries, use the search box to search for this title <br>
 
 
 book_opt_4: "A Byte of Python, "
