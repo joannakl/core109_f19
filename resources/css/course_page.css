@@ -1,12 +1,12 @@
-/* Run 
+/* Run
  *    lessc styles.less styles.css
  * to generate the css file.
  */
 /* Color schemes website:
- *     http://colorschemedesigner.com  
+ *     http://colorschemedesigner.com
  */
 /*
-Color scheme: 
+Color scheme:
 */
 html {
   margin: 0;
@@ -36,46 +36,46 @@ h1 {
   padding: 2px;
   font-size: 1.3em;
   font-weight: bold;
-  color: #40334d;
+  color: #404d33;
 }
 h2 {
   margin: 0.75em 1em 0.25em 0em;
   padding: 2px;
   font-size: 1.2em;
   font-weight: bold;
-  color: #40334d;
+  color: #404d33;
 }
 h3 {
   margin: 0.5em 1em 0.25em 0em;
   padding: 2px;
   font-size: 1.1em;
   font-weight: bold;
-  color: #40334d;
+  color: #404d33;
 }
 h4 {
   margin: 0.5em 1em 0.25em 0em;
   padding: 2px;
   font-size: 1.0em;
   font-weight: bold;
-  color: #40334d;
+  color: #404d33;
 }
 /******************************************/
 header {
-  background: #b3a3c2;
+  background: #b2c2a3;
   padding: 3px 1em;
   margin: 0;
-  color: #40334d;
+  color: #404d33;
 }
 header h1 {
   margin: 0em;
   padding: 0px;
   font-size: 2em;
   font-weight: bold;
-  color: #40334d;
+  color: #404d33;
 }
 /******************************************/
 nav {
-  background: #b3a3c2;
+  background: #b2c2a3;
   padding: 3px 1em;
   margin: 0;
 }
@@ -88,24 +88,24 @@ nav ul {
 nav li {
   float: left;
   font-weight: bold;
-  border: 1px solid #b3a3c2;
+  border: 1px solid #b2c2a3;
 }
 nav li a {
   display: block;
-  color: #e6e0eb;
-  background-color: #41324e;
+  color: #e5ebe0;
+  background-color: #3f4e32;
   text-align: center;
   padding: 0.5em 2em;
   text-decoration: none;
 }
 nav li a:hover {
-  color: #41324e;
-  background-color: #e6e0eb;
+  color: #3f4e32;
+  background-color: #e5ebe0;
   text-decoration: none;
 }
 /******************************************/
 aside {
-  background: #b3a3c2;
+  background: #b2c2a3;
   width: 20%;
   float: right;
   padding: 0.25em;
@@ -126,8 +126,8 @@ main {
 main hr {
   margin: 0;
   padding: 0;
-  color: #40334d;
-  background-color: #40334d;
+  color: #404d33;
+  background-color: #404d33;
   height: 3px;
   width: 400px;
   text-align: left;
@@ -142,18 +142,18 @@ main p.hang {
   text-indent: -32px;
 }
 main .emph {
-  color: #40334d;
+  color: #404d33;
   font-weight: bold;
   font-variant: small-caps;
 }
 main .alert {
-  color: #40334d;
+  color: #404d33;
   font-weight: bold;
   background-color: yellow;
   line-height: 200%;
 }
 main .name {
-  color: #40334d;
+  color: #404d33;
   font-variant: small-caps;
 }
 td {
@@ -165,7 +165,7 @@ td {
   clear: left;
   padding-bottom: 15px;
   padding-top: 9px;
-  background-color: #eddeed;
+  background-color: #deedde;
   border-top: 3px solid white;
   overflow: hidden;
 }
@@ -173,7 +173,7 @@ td {
   clear: left;
   padding-bottom: 15px;
   padding-top: 9px;
-  background-color: #ccc2d6;
+  background-color: #ccd6c2;
   border-top: 3px solid white;
   overflow: hidden;
 }
@@ -181,7 +181,7 @@ td {
   clear: left;
   padding-bottom: 15px;
   padding-top: 9px;
-  background-color: #b3b8cc;
+  background-color: #ccc8b3;
   border-top: 3px solid white;
   overflow: hidden;
 }
@@ -189,8 +189,8 @@ td {
   clear: left;
   padding-bottom: 15px;
   padding-top: 9px;
-  background-color: #67507c;
-  color: #e6e0eb;
+  background-color: #657c50;
+  color: #e5ebe0;
   font-weight: bold;
   border-top: 3px solid white;
   overflow: hidden;
@@ -287,7 +287,7 @@ footer {
   clear: both;
   margin: 0;
   padding: 0;
-  background: #b3a3c2;
+  background: #b2c2a3;
   font-size: 0.8em;
   overflow: hidden;
 }
