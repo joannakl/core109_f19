@@ -22,7 +22,7 @@ Intro to the course. What is QR about? Why are we here?
 <div class="column_assign">
 <p markdown="block">
 
-- read the [syllabus][syllabus.html]
+- read the [syllabus](syllabus.html)
 
 </p>
 </div>
