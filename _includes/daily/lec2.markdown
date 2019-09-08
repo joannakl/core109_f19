@@ -11,7 +11,11 @@ Mon, 9/09
 <div class="column_materials">
 <p markdown="block">
 
+Simplifying calculations and repetitive tasks.
 
+Starting with Python: printing information, getting input from users.
+
+(slides available in the class_share folder on JupyterHub)
 
 </p>
 </div>
@@ -25,4 +29,3 @@ Mon, 9/09
 </div>
 
 </div>
-
