@@ -47,7 +47,7 @@ current_course3_link: ""
 
 
 tutor_location: "Kimmel Center 4th floor computer lab"
-tutor_schedule_link: "TBD"
+tutor_schedule_link: "https://cs.nyu.edu/courses/fall19/CSCI-UA.0002-002/common_syllabus/#tutoring"
 
 midterm_exam_date: "__exam 1__: Mon, Oct. 7, __exam 2__: Mon, Nov. 11"
 final_exam_date: "__Wed, Dec. 18, 8:00am-9:50am__"
