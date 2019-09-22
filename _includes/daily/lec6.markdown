@@ -12,6 +12,13 @@ Mon, 9/23
 <p markdown="block">
 
 
+Counter controlled repetition using `for` loop.
+Using `range()` function and creating lists `[..., ..., ...]` to iterate over.
+
+
+(slides available in the class_share folder on JupyterHub)
+
+
 
 </p>
 </div>
@@ -25,4 +32,3 @@ Mon, 9/23
 </div>
 
 </div>
-

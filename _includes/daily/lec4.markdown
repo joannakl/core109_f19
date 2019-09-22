@@ -11,7 +11,10 @@ Mon, 9/16
 <div class="column_materials">
 <p markdown="block">
 
+More on basic python: arithmetic calculations, data types and why they matter, 
+formatting output. 
 
+(slides/notes available on JupyterHub in the class_share folder)
 
 </p>
 </div>
