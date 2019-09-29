@@ -11,6 +11,12 @@ Wed,10/02
 <div class="column_materials">
 <p markdown="block">
 
+Inflation, electricity bills, car rentals.
+
+More visualizations.
+
+(slides, deck 06, available in the class_share folder on JupyterHub)
+
 
 
 </p>
@@ -25,4 +31,3 @@ Wed,10/02
 </div>
 
 </div>
-

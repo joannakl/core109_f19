@@ -12,6 +12,15 @@ Mon, 9/30
 <p markdown="block">
 
 
+Calculating percentage increase and decrease.
+
+How to use Python to solve math problems?
+
+Visualization
+
+
+(slides, deck 05, available in the class_share folder on JupyterHub)
+
 
 </p>
 </div>
@@ -25,4 +34,3 @@ Mon, 9/30
 </div>
 
 </div>
-
