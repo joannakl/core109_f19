@@ -24,6 +24,7 @@ Intro to the course. What is QR about? Why are we here?
 
 - read the [syllabus](syllabus.html)
 
+
 </p>
 </div>
 

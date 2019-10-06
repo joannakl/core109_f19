@@ -11,6 +11,11 @@ Mon,10/07
 <div class="column_materials">
 <p markdown="block">
 
+Review for the exam.
+
+Sample exam was sent by email.
+
+[Additional practice problems.](midterm1_sample_questions.html)
 
 
 </p>
@@ -25,4 +30,3 @@ Mon,10/07
 </div>
 
 </div>
-
