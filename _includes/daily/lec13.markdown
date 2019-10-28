@@ -11,7 +11,8 @@ Wed,10/16
 <div class="column_materials">
 <p markdown="block">
 
-
+Introduction to `while` loops - when we do not know up-front how many times
+to repeat something. 
 
 </p>
 </div>
@@ -25,4 +26,3 @@ Wed,10/16
 </div>
 
 </div>
-

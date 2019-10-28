@@ -11,7 +11,11 @@ Wed,10/23
 <div class="column_materials">
 <p markdown="block">
 
+Working with lists: searching for an elements using `in` and `index()`, appending
+items to a list using `append()` function, removing elements from a list  using
+`remove()` function, sorting a list using `sort()` function.
 
+Finding smallest, largest, calculating means of the list elements. 
 
 </p>
 </div>
@@ -25,4 +29,3 @@ Wed,10/23
 </div>
 
 </div>
-

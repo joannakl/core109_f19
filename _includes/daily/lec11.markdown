@@ -11,6 +11,7 @@ Wed,10/09
 <div class="column_materials">
 <p markdown="block">
 
+Working on problems from the sample midterm and problem sets. 
 
 
 </p>
@@ -25,4 +26,3 @@ Wed,10/09
 </div>
 
 </div>
-

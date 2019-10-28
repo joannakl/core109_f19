@@ -13,6 +13,8 @@ Tue,10/15
 
 <b>legislative day!!!, classes follow Monday schedule</b><br/><br/>
 
+Assigning grades based on their distribution. Meaning of mean/average,
+median, mode, standard deviation. How to calculate each of them.  
 
 </p>
 </div>
@@ -26,4 +28,3 @@ Tue,10/15
 </div>
 
 </div>
-

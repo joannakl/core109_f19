@@ -11,7 +11,9 @@ Mon,10/21
 <div class="column_materials">
 <p markdown="block">
 
-
+Lists in Python: creating lists using `[]` notation, combining lists using
+concatenation (`+`) and replication (`*`) operators, accessing list elements,
+modifying elements of a list, iterating over lists, aliasing vs. copying. 
 
 </p>
 </div>
@@ -25,4 +27,3 @@ Mon,10/21
 </div>
 
 </div>
-

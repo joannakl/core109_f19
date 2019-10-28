@@ -11,7 +11,7 @@ Mon,10/28
 <div class="column_materials">
 <p markdown="block">
 
-
+Random numbers and why we need them. Calculating probabilities. 
 
 </p>
 </div>
@@ -25,4 +25,3 @@ Mon,10/28
 </div>
 
 </div>
-
