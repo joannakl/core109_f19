@@ -10,9 +10,14 @@ Recitation 9 <br>
 <p markdown="block">
 
 
+[Lab 8 worksheet](labs/lab08.pdf)
+
+
+Lab 8 available on JupyterHub when the recitation starts.
+
+
 
 </p>
 </div>
 
 </div>
-

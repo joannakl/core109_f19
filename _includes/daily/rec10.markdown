@@ -9,10 +9,17 @@ Recitation 10 <br>
 <div class="column_recitation">
 <p markdown="block">
 
+[Lab 5 worksheet](labs/lab05.pdf)
+
+
+Lab 5 available on JupyterHub when the recitation starts.
+
+
+<span style="color:red">__Final version due on Tuesday, Nov. 5 at 11:59pm.__</span>
+
 
 
 </p>
 </div>
 
 </div>
-
