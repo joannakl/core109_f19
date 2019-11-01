@@ -78,6 +78,7 @@ Probabilities
 
 Trace the output of the following programs (each code fragment below is
 a separate Python program.) For solutions simply run the programs.
+
 1.
 
     count = 0
@@ -165,16 +166,16 @@ a separate Python program.) For solutions simply run the programs.
     prices.sort()
     print ( prices[ len(prices)/2 ] )
 
-11. (this is a challenging one)
+11.
 
 ```
-    x = [1,2,3]
-    counter = 0
-    while counter < len(x):
-        print (x[counter] * '%')
-        for y in x:
-            print (y * '*')
-        counter += 1
+x = [1,2,3]
+counter = 0
+while counter < len(x):
+    print (x[counter] * '%')
+    for y in x:
+        print (y * '*')
+    counter += 1
 ```
  
 
