@@ -88,6 +88,7 @@ a separate Python program.) For solutions simply run the programs.
 
     x = 10
     y = 0
+
 2.
 
     while x > y:
@@ -97,6 +98,7 @@ a separate Python program.) For solutions simply run the programs.
 
     keepgoing = True
     x = 100
+
 3.
 
     while keepgoing:
@@ -114,12 +116,14 @@ a separate Python program.) For solutions simply run the programs.
             print (x, x ** 2)
 
         print ("looping!")
+
 5.
 
     pokemon = ["squirtle", "pikachu", "charmander", "bulbasaur", "meowth"]
 
     for i in range(0, len(pokemon), 2):
         print (i, pokemon[i])
+
 6.
 
     pokemon = ["squirtle", "pikachu", "charmander", "bulbasaur", "meowth"]
@@ -128,6 +132,7 @@ a separate Python program.) For solutions simply run the programs.
     while counter < len(pokemon):
         print (counter, pokemon[counter])
         counter += 2
+
 7.
 
     prices = [10,20,30,40,50]
@@ -136,6 +141,7 @@ a separate Python program.) For solutions simply run the programs.
         price = price * 1.10
         print(price, end=', ')
     print (prices)
+
 8.
 
     prices = [10,20,30,40,50]
@@ -144,6 +150,7 @@ a separate Python program.) For solutions simply run the programs.
         prices[i] = prices[i] * 1.10
         print(prices[i], end=', ')
     print (prices)
+
 9.
 
     prices = [10,20,30,40,50]
@@ -151,6 +158,7 @@ a separate Python program.) For solutions simply run the programs.
     for price in prices:
         sum +=  price
     print (sum/len(prices))
+
 10.
 
     prices = [110,20,75,140,50,90,15]
