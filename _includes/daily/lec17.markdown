@@ -11,6 +11,9 @@ Wed,10/30
 <div class="column_materials">
 <p markdown="block">
 
+Using random number generation to create synthetic data sets.
+Selecting _random_ elements from a list. Verifying calculated probabilities using
+simulations.
 
 
 </p>
@@ -25,4 +28,3 @@ Wed,10/30
 </div>
 
 </div>
-
