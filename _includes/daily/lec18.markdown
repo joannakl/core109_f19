@@ -12,6 +12,13 @@ Mon,11/04
 <p markdown="block">
 
 
+Review for the exam.
+
+Sample exam was sent by email.
+
+[Additional practice problems.](midterm2_sample.html)
+
+
 
 </p>
 </div>
@@ -25,4 +32,3 @@ Mon,11/04
 </div>
 
 </div>
-

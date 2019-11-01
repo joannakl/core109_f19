@@ -9,13 +9,12 @@ Recitation 10 <br>
 <div class="column_recitation">
 <p markdown="block">
 
-[Lab 5 worksheet](labs/lab05.pdf)
+__Exam 2__
 
 
-Lab 5 available on JupyterHub when the recitation starts.
-
-
-<span style="color:red">__Final version due on Tuesday, Nov. 5 at 11:59pm.__</span>
+- bring  __two__ double sided 8.5x11in sheet of paper with your own notes
+- bring a calculator, if you wish (you will be able to use an [online
+calculator](https://web2.0calc.com/) on the computer in front of you, if you do not have a calculator - no cell phones allowed during the exam
 
 
 

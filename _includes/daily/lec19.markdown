@@ -12,6 +12,9 @@ Wed,11/06
 <p markdown="block">
 
 
+Working on problems from the sample midterm and problem sets.
+
+
 
 </p>
 </div>
@@ -25,4 +28,3 @@ Wed,11/06
 </div>
 
 </div>
-

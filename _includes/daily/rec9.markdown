@@ -16,6 +16,8 @@ Recitation 9 <br>
 Lab 8 available on JupyterHub when the recitation starts.
 
 
+<span style="color:red">__Final version due on Tuesday, Nov. 5 at 11:59pm.__</span>
+
 
 </p>
 </div>
