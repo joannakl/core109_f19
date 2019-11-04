@@ -300,25 +300,25 @@ probability of getting at least two heads?
     Write a program that attempts to verify your answers to the above questions.
 
 
-11. An integer, $n$, is said to be __perfect__ when the sum of all of the proper divisors of $n$ is equal to $n$.
+11. An integer, `n`, is said to be __perfect__ when the sum of all of the proper divisors of `n` is equal to `n`.
 For example, 28 is a perfect number because its proper divisors are 1, 2,
 4, 7 and 14, and 1 + 2 + 4 + 7 + 14 = 28.
 
-Write a program that determines whether or not a positive integer entered by the user is perfect.
-(Validate that the user entered a positive integer and prompt them again if they did not.)
+    Write a program that determines whether or not a positive integer entered by the user is perfect.
+    (Validate that the user entered a positive integer and prompt them again if they did not.)
 
-Here are two sample runs of your program:
+    Here are two sample runs of your program:
 
-```
-enter a positive number: 28  
-28 is perfect
-```
+    ```
+    enter a positive number: 28  
+    28 is perfect
+    ```
 
-```
-enter a positive number: -5  
-try again, enter a positive number: 5
-5 is not perfect
-```
+    ```
+    enter a positive number: -5  
+    try again, enter a positive number: 5
+    5 is not perfect
+    ```
 
 
 <!--
