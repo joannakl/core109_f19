@@ -369,15 +369,86 @@ __Question \#4__
 
 __Question \#5__
 
-    orders = [10, 50, 30, 7, 15]
+```Python
+orders = [10, 50, 30, 7, 15]
+promo_list = []
 
-    for i in orders :
-        q = int(input("Enter a quantity: "))
-        free = get_num_free_fireworks(q)
-        print ("You are eligible for", free, "free fireworks!")
-        again = input("Would you like to run the program again?")
-        if again == "no":
-            break
+for i in range(len(orders)) :
+    if orders[i] <= 10 :
+        promo_list.append(orders[i])
+    elif orders[i] <= 20 :
+        promo_list.append(orders[i]+1)
+    elif orders[i] <= 30 :
+        promo_list.append(orders[i]+3)
+    else:
+        promo_list.append(orders[i]+5)
+print("original orders:", orders)
+print("with promotion :", promo_list )
+```
+
+__Question \#6__
+
+```Python
+min = 101
+max = -1
+sum = 0
+count = 0
+
+print ( "Enter grades from 0 to 100.")
+letter_grades = []
+grades = []
+grade = int ( input("next: " ) )
+
+while grade >= 0 and grade <= 100 :
+    # add the number grade to the list
+    grades.append(grade)
+
+    # figure out the letter grade and add it to the list
+    if grade >= 90 :
+        letter_grades.append('A')
+    elif grade >= 80 :
+        letter_grades.append('B')
+    elif grade >= 70 :
+        letter_grades.append('C')
+    elif grade >= 60 :
+        letter_grades.append('D')
+    else :
+        letter_grades.append('F')
+
+    # update sum and count     
+    sum = sum + grade
+    count = count + 1
+    # update the smallest grade
+    if grade < min :
+        min = grade
+    # update the largest grade
+    if grade > max :
+        max = grade
+
+    # get the next grade
+    grade = int ( input("next: " ) )
+
+# figure out the median
+grades.sort()
+
+if len(grades)%2 == 1 :
+    median = grades[len(grades)//2]
+else:
+    median = (grades[len(grades)//2]+grades[len(grades)//2+1])/2
+
+# print the results
+if count > 0 :
+    print ( "Average :", sum/count )
+    print ( "Median:", median)
+    print ( "Min:", min )
+    print ( "Max:", max )
+    print ( "Letter grades: ", end='')
+    for g in letter_grades:
+        print (g, ",", sep='', end=' ')
+```
+
+
+
 
 __Question \#9__
 
@@ -390,6 +461,7 @@ There are 2^3 = 8 possible outcomes when tossing three coins:
 - THT
 - TTH
 - TTT
+
 Each of those 8 outcomes is equally likely.
 There is one outcome that has 3 heads, so the probability of getting exactly three heads is 1/8.
 There are three outcomes that have exactly 2 heads, so the probability of exactly two heads is 3/8.
