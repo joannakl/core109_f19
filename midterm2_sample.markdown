@@ -203,7 +203,7 @@ while counter < len(x):
         Average weight for 3 days: 175.0
 
 4.  Re-write the previous program so that you re-prompt them if the user
-    enters an invalid weight y(anything 0 or less). Ensure that you
+    enters an invalid weight (anything 0 or less). Ensure that you
     don't move to the next day without getting a valid weight. Sample
     running:
 
@@ -321,15 +321,15 @@ For example, 28 is a perfect number because its proper divisors are 1, 2,
     ```
 
 
-<!--
-**Solutions**
 
-Question \#1
+### Solutions
+
+__Question \#1__
 
     for i in range(2, 100001, 2):
         print (i)
 
-Question \#2
+__Question \#2__
 
     total = 0
     again = "yes"
@@ -337,8 +337,9 @@ Question \#2
         p = float(input("Enter a price: "))
         total += p
         again = input("Enter another price? (yes or no): ")
+    print("Your total is", total)
 
-Question \#3
+__Question \#3)__
 
     total = 0
     days = int(input("Enter a number of days: "))
@@ -349,7 +350,7 @@ Question \#3
 
     print ("Average weight for", days, "days:", total/days)
 
-Question \#4
+__Question \#4__
 
     total = 0
     days = int(input("Enter a number of days: "))
@@ -365,28 +366,12 @@ Question \#4
 
     print ("Average weight for", days, "days:", total/days)
 
-Question \#5
 
-    def myfun(a,b):
-        print a**b
+__Question \#5__
 
-    myfun(5,2)
+    orders = [10, 50, 30, 7, 15]
 
-Questions \#6 and \#7
-
-    def get_num_free_fireworks(num):
-        if num <= 10:
-            return 0
-        elif num <= 20:
-            return 1
-        elif num <= 30:
-            return 3
-        else:
-            return 5
-
-
-
-    while True:
+    for i in orders :
         q = int(input("Enter a quantity: "))
         free = get_num_free_fireworks(q)
         print ("You are eligible for", free, "free fireworks!")
@@ -394,28 +379,69 @@ Questions \#6 and \#7
         if again == "no":
             break
 
-Questions \#8 and \#9
+__Question \#9__
 
-    def compute_grade(g):
-        if g >= 90:
-            return 'A'
-        elif g >= 80:
-            return 'B'
-        elif g >= 70:
-            return 'C'
-        elif g >= 65:
-            return 'D'
-        else:
-            return 'F'
+There are 2^3 = 8 possible outcomes when tossing three coins:
+- HHH
+- HHT
+- HTH
+- HTT
+- THH
+- THT
+- TTH
+- TTT
+Each of those 8 outcomes is equally likely.
+There is one outcome that has 3 heads, so the probability of getting exactly three heads is 1/8.
+There are three outcomes that have exactly 2 heads, so the probability of exactly two heads is 3/8.
+There are four outcomes that have at least 2 heads, so the probability of this is 4/8 = 1/2.
+
+```Python
 
 
-    while True:
+# 1 - represetns heads
+# 0 - represents tails
+# (the above numbers could be different)
+import random
 
-        g = int(input("Enter a grade: "))
-        if g > 100 or g < 0:
-            break
+count3H = 0
+count2H = 0
+countAtLeast2H = 0
 
-        letter = compute_grade(g)
-        print (g, "is a(n)", letter)
+for i in range (10000) :
+    c1 = random.randint(0,1)
+    c2 = random.randint(0,1)
+    c3 = random.randint(0,1)
+    sum = c1 + c2 + c3
+    if sum == 3 :
+        count3H += 1
+        countAtLeast2H += 1
+    elif sum == 2 :
+        countAtLeast2H += 1
+        count2H +=1
+print ("exactly 3 heads:", count3H/10000, "theoretical:", 1/8)
+print ("exactly 2 heads:", count2H/10000, "theoretical:", 3/8)
+print ("at least 2     :", countAtLeast2H/10000, "theoretical:", 1/2)
+```
 
--->
+__Question \#10__
+
+```Python
+
+num = int( input("Enter a positive number? "))
+while num <= 0 :
+    num = int(input("Sorry, I need a positive number. Try again: ") )
+
+sum_of_factors = 0
+possible_factor = 1
+
+while possible_factor <  num :
+    if num % possible_factor == 0 :
+        print(possible_factor)
+        sum_of_factors += possible_factor
+    possible_factor += 1
+
+if sum_of_factors == num :
+    print(num , "is perfect")
+else:
+    print(num, "is not perfect")
+```
