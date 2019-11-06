@@ -447,6 +447,20 @@ if count > 0 :
         print (g, ",", sep='', end=' ')
 ```
 
+__Question \#8__
+
+```Python
+import random
+
+lottery = []
+
+while len (lottery) < 5 :
+    num = random.randint(1, 100)
+    if num not in lottery :
+        lottery.append(num)
+
+print ("Your lottery #'s are:", lottery)
+```
 
 
 
