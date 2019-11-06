@@ -87,20 +87,20 @@ a separate Python program.) For solutions simply run the programs.
         print ('Hello')
         count += 1
 
-    x = 10
-    y = 0
-
 2.
 
+
+    x = 10
+    y = 0
     while x > y:
         print (x, y)
         x = x - 1
         y = y + 1
 
+3.
+
     keepgoing = True
     x = 100
-
-3.
 
     while keepgoing:
         print (x)
@@ -147,7 +147,7 @@ a separate Python program.) For solutions simply run the programs.
 
     prices = [10,20,30,40,50]
 
-    for i in range(0, len(price)):
+    for i in range(0, len(prices)):
         prices[i] = prices[i] * 1.10
         print(prices[i], end=', ')
     print (prices)
@@ -164,7 +164,7 @@ a separate Python program.) For solutions simply run the programs.
 
     prices = [110,20,75,140,50,90,15]
     prices.sort()
-    print ( prices[ len(prices)/2 ] )
+    print ( prices[ len(prices)//2 ] )
 
 11.
 
@@ -434,7 +434,7 @@ grades.sort()
 if len(grades)%2 == 1 :
     median = grades[len(grades)//2]
 else:
-    median = (grades[len(grades)//2]+grades[len(grades)//2+1])/2
+    median = (grades[len(grades)//2]+grades[len(grades)//2-1])/2
 
 # print the results
 if count > 0 :
@@ -475,7 +475,7 @@ while len (lottery) < 5 :
     num = random.randint(1, 100)
     if num not in lottery :
         lottery.append(num)
-
+lottery.sort()
 print ("Your lottery #'s are:", lottery)
 ```
 
