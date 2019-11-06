@@ -447,6 +447,23 @@ if count > 0 :
         print (g, ",", sep='', end=' ')
 ```
 
+__Question \#7__
+
+```Python
+import random
+
+id = "N"
+first_digit = random.randint(1,9)
+
+id = id + str(first_digit)
+
+for i in range(7) :
+    digit = random.randint(0,9)
+    id = id + str(digit)
+
+print ("N-number: ", id)
+```
+
 __Question \#8__
 
 ```Python
