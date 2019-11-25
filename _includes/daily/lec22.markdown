@@ -11,7 +11,8 @@ Mon,11/18
 <div class="column_materials">
 <p markdown="block">
 
-
+Strings in Python. Similarities and differences from lists.
+Introduction to many functions/methods that work with strings.
 
 </p>
 </div>
@@ -25,4 +26,3 @@ Mon,11/18
 </div>
 
 </div>
-

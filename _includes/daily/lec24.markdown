@@ -11,7 +11,12 @@ Mon,11/25
 <div class="column_materials">
 <p markdown="block">
 
+Student presentations:
+- _The Data Science of Fact Checking_ by Alex
+- _Box Office for Movies_ by Sam
+- _Real-life crash test results_ by John
 
+Look at books as really long strings that can be manipulated and processed with Python. 
 
 </p>
 </div>
@@ -25,4 +30,3 @@ Mon,11/25
 </div>
 
 </div>
-

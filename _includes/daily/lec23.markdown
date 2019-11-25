@@ -11,6 +11,10 @@ Wed,11/20
 <div class="column_materials">
 <p markdown="block">
 
+Working with strings and list of strings in Python.
+
+- searching for a all occurrences of a substring in a long string
+- searching for a substring in a list of strings
 
 
 </p>
@@ -25,4 +29,3 @@ Wed,11/20
 </div>
 
 </div>
-
