@@ -12,6 +12,11 @@ Mon,12/02
 <p markdown="block">
 
 
+Student presentations:
+- _Turtles_ by Jordanna
+- _History and AI_ by Samantha
+
+Statistics of literary texts. 
 
 </p>
 </div>
@@ -25,4 +30,3 @@ Mon,12/02
 </div>
 
 </div>
-

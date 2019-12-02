@@ -9,10 +9,12 @@ Recitation 13 <br>
 <div class="column_recitation">
 <p markdown="block">
 
+Student presentations:
+- presentation 1
+- presentation 2
 
 
 </p>
 </div>
 
 </div>
-

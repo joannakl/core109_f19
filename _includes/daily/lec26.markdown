@@ -11,6 +11,12 @@ Wed,12/04
 <div class="column_materials">
 <p markdown="block">
 
+Student presentations:
+- presentation 1
+- presentation 2
+- presentation 3
+
+
 
 
 </p>
@@ -25,4 +31,3 @@ Wed,12/04
 </div>
 
 </div>
-
