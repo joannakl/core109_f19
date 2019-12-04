@@ -12,11 +12,12 @@ Wed,12/04
 <p markdown="block">
 
 Student presentations:
-- presentation 1
-- presentation 2
-- presentation 3
+- _Probabilities in Gambling Games_ by Andrey
+- _???_ by Sol
+- _???_ by Keilly
 
 
+Trigonometry and art.
 
 
 </p>
