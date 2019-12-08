@@ -11,59 +11,37 @@ Here is a quick outline of what will be covered on the final exam. You should us
 Here is a quick summary of math topics that you should be reviewing for
 the final exam.
 
-1.  Approximations, Units, Unit Conversion
-    1.  approximating the values by rounding to "nice" numbers
-    2.  converting from "smaller" units to "larger" units (for example,
-        minutes to hours, inches to miles, etc)
-    3.  converting from "larger" units to "smaller" units (for example,
-        hours to minutes, miles to inches, etc)
-    4.  multiply by 1 trick
 2.  Percentages
-    1.  group sizes as percentage of a whole
-    2.  pay increases (one+ trick)
-    3.  discounts
-    4.  finding what percent of one amount is another amount
-    5.  inflation - what is your money worth tomorrow
+    -   group sizes as percentage of a whole
+    -   pay increases (one+ trick)
+    -   discounts
+    -   finding what percent of one amount is another amount
+    -   inflation - what is your money worth tomorrow
 3.  Averages
-    1.  averages vs. weighted averages
-    2.  average paradox (Simpson's Paradox)
-    3.  calculating GPA
+    -   calculating GPA
+    -   calculation other average values
 4.  Linear growth
-    1.  calculating distance traveled within particular time
-    2.  currency exchange
-    3.  electricity bills (base pay)
-    4.  bonus calculation
-    5.  car rental fees
+    -   calculating distance traveled within particular time
+    -   currency exchange
+    -   electricity bills (base pay)
+    -   bonus calculation
+    -   car rental fees
 5.  Exponential growth
-    1.  simple interest vs. compound interest
-    2.  significance of doubling: rice and chessboard story, toilet
+    -   interest calculations
+    -   significance of doubling: rice and chessboard story, toilet
         paper and the Moon
-    3.  population growth, generations
-    4.  credit card payments
-    5.  retirement savings
-    6.  Using the IF-ELSE statement
-    7.  Nesting decision structures (IF statements inside other IF
-        statements)
-    8.  The IF-ELIF-ELSE statement
-    9.  Logical operators (and, or, not)
-6.  Logarithms
-    1.  figuring out the exponent, what\_power\_function
-    2.  bacteria growth - how much time does it take for population to
-        double?
-    3.  how many digits/symbols to produce specified number of unique
-        identifiers
+    -   credit card payments
+    -   retirement savings
+6.  Probabilities
+    -  enumerating all possible outcomes of an experiment
+    -  determining the number of all possible outcomes
+    -  calculating probabilities of a given outcome
 7.  Statistics
-    1.  interpreting different types of graphs: histograms, dot plots,
-        box plots
-    2.  approximating and calculating mean, median and mode - what kind
+    -   calculating mean, median and mode - what kind
         of information they reveal
-    3.  scatter plots for numerical data
-    4.  modeling data with linear/quadratic/exponential/logarithmic
-        functions
-    5.  approximating missing data based on the model
-    6.  categorical data
-    7.  frequency table, relative frequencies, conditional relative
-        frequencies
+    -   analyzing data distribution based on a histogram
+    -   working with real data sets
+
 
 
 
@@ -71,113 +49,96 @@ Here is a quick summary of Python topics that you should be reviewing
 for the final exam.
 
 1.  Programming Mechanics
-    1.  Functions (what are they, using them, arguments, return values,
-        etc)
-    2.  Variables (what are they, creating them, using them, naming
+    -   Variables (what are they, creating them, using them, naming
         rules, etc)
-    3.  Reading input from the keyboard with the input() function
+    -   Reading input from the keyboard with the input() function
 2.  Math Expressions
-    1.  Writing math expressions
-    2.  Evaluating math expressions
-    3.  Storing & printing the results of math expressions
+    -   Writing math expressions
+    -   Evaluating math expressions
+    -   Storing & printing the results of math expressions
 3.  Data Types
-    1.  Strings
-    2.  Numeric data types
-        1.  Integers (int)
-        2.  Floating point numbers (float)
-    3.  The Boolean data type
-    4.  The List data type
-    5.  Mixed type expressions
-    6.  Type conversion (string to int, int to strings, etc)
+    -   Strings
+    -   Numeric data types
+        -   Integers (int)
+        -   Floating point numbers (float)
+    -   The Boolean data type
+    -   The List data type
+    -   Mixed type expressions
+    -   Type conversion (string to int, int to strings, etc)
 4.  Basic String Manipulation
-    1.  Combining two strings (concatenation)
-    2.  Multiplying a string (x = 'hi' \* 5)
-    3.  Case manipulation (x = str.lower('JaSOn') \# converts the string
+    -   Combining two strings (concatenation)
+    -   Multiplying a string (x = 'hi' \* 5)
+    -   Case manipulation (ex., `x = str.lower('JaSOn')` converts the string
         literal 'JaSOn' to 'jason)
-    4.  Calculating string length using the len() function
-5.  Selection Statements
-    1.  The structure of an IF statement (IF keyword, condition, colon,
-        indentation)
-    2.  Writing a condition for an IF statement
-    3.  Boolean operators (&lt;, &gt;, ==, !=, &gt;=, &lt;=)
-    4.  Comparing numeric values using Boolean expressions
-    5.  Comparing string values using Boolean expressions
-    6.  Using the IF-ELSE statement
-    7.  Nesting decision structures (IF statements inside other IF
+    -   Calculating string length using the len() function
+    -   Searching for substrings in a string
+5.  Selection statements
+    -   The structure of an `if` statement (`if` keyword, condition, colon, indentation)
+    -   Writing a condition for an `if` statement
+    -   Boolean operators (`<`, `>`, `==`, `!=`, `>=`, `<=`)
+    -   Comparing numeric values using Boolean expressions
+    -   Comparing string values using Boolean expressions
+    -   Using the `if`-`else` statement
+    -   Nesting decision structures (`if` statements inside other `if`
         statements)
-    8.  The IF-ELIF-ELSE statement
-    9.  Logical operators (and, or, not)
-6.  Generating random numbers using the random.randint() function
-7.  Condition Controlled Loops (while loops)
-    1.  mechanics & how they work
-    2.  setting up conditions for a while loop
-    3.  infinite loops and how to avoid them
-    4.  sentinels (defining a value that the user enters that causes the
+    -   The `if`-`elif`-`else` statement
+    -   Logical operators (`and`, `or`, `not`)
+9.  Count Controlled Loops (`for` loops)
+    -   mechanics and how they work
+    -   iterating over a list (i.e. `for x in [1,2,3,4,5]`:)
+    -   using the target variable in a `for` loop
+    -   using the `range()` function
+    -   nested loops (i.e. loops inside of other loops)
+7.  Condition Controlled Loops (`while` loops)
+    -   mechanics and how they work
+    -   setting up conditions for a `while` loop
+    -   infinite loops and how to avoid them
+    -   sentinels (defining a value that the user enters that causes the
         loop to end)
-    5.  input validation loops (asking the user to continually enter a
+    -   input validation loops (asking the user to continually enter a
         value until that value matches some condition)
+6.  Generating random numbers
 8.  Accumulator variables
-    1.  setting up and using accumulator variables
-    2.  self referential assignment statements (i.e. counter = counter +
-        1)
-    3.  augmented assignment operators (i.e. counter += 1)
-9.  Count Controlled Loops (for loops)
-    1.  mechanics and how they work
-    2.  iterating over a list (i.e. for x in \[1,2,3,4,5\]:)
-    3.  using the target variable in a for loop
-    4.  nested loops (i.e. loops inside of other loops)
-10. Functions
-    1.  mechanics and how functions work
-    2.  the "black box" model
-    3.  function definitions
-    4.  arguments
-    5.  return values
-    6.  calling a function
-    7.  local variables (variables that are defined inside a function
-        and can only be accessed inside that function)
-    8.  passing arguments to your own functions
-    9.  writing a value returning function (i.e. using the 'return'
-        keyword to send a result from your function to the part of your
-        program that called that function)
+    -   setting up and using accumulator variables
+    -   self referential assignment statements (i.e. `counter = counter + 1`)
+    -   augmented assignment operators (i.e. `counter += 1`)
 11. Lists
-    1.  Simple Variables vs. Lists (simple variables can only hold one
+    -   Simple variables vs. lists (simple variables can only hold one
         piece of data, but lists can hold multiple values) – you can
         think of a list like a "book" and a variable like a "sheet of
         paper"
-    2.  Defining lists in Python (i.e. mylist = \[1,2,3\])
-    3.  Concatenating lists with the "+" operator
-    4.  Repeating lists with the "\*" operator
-    5.  Referencing list items using index notation (i.e. mylist\[0\])
-    6.  Iterating through a list using a "while" loop
-    7.  Iterating through a list using a "for" loop
-    8.  Using the len() function to determine the \# of items in a list
-    9.  Updating the value of an item in a list using bracket notation
-    10. Creating empty lists
-    11. Finding an item in a list using the "in" operator
-    12. Adding items to a list using the append method
-    13. Sorting items in a list using the sort method
-    14. Reversing items in a list using the reverse method
-    15. Finding the position of an item in a list using the index method
-    16. Inserting an item in a list at a specific index using the insert
+    -   Defining lists in Python (i.e. `mylist = [1,2,3]`)
+    -   Concatenating lists with the `+` operator
+    -   Repeating lists with the `*` operator
+    -   Referencing list items using index notation (i.e. `mylist[0]`)
+    -   Iterating through a list using a `while` loop
+    -   Iterating through a list using a `for` loop
+    -   Using the `len()` function to determine the number of items in a list
+    -   Updating the value of an item in a list using bracket notation
+    -   Creating empty lists
+    -   Finding an item in a list using the `in` operator
+    -   Adding items to a list using the `append` method
+    -   Sorting items in a list using the `sort` method
+    -   Reversing items in a list using the `reverse` method
+    -   Finding the position of an item in a list using the `index` method
+    -   Inserting an item in a list at a specific index using the `insert`
         method
-    17. Finding the largest and smallest values in a list using the min
-        and max methods
-    18. Totaling the values of all elements in a list using an
+    -   Finding the largest and smallest values in a list using the `min`
+        and `max` methods
+    -   Totaling the values of all elements in a list using an
         accumulator variable
-    19. Removing an item from a list using the remove method
+    -   Removing an item from a list using the `remove` method
 12. Strings Manipulation
-    1.  Iterating through all characters in a string using a for loop
-    2.  Indexing a specific character in a string using bracket notation
-    3.  Iterating through all characters in a string using a while loop
-    4.  String immutability (you can't change a string using bracket
+    -   Iterating through all characters in a string using a `for` loop
+    -   Indexing a specific character in a string using bracket notation
+    -   Iterating through all characters in a string using a `while` loop
+    -   String immutability (you can't change a string using bracket
         notation like you would change a list element)
-    5.  Testing a string for substrings using the "in" operator
-    6.  Detecting character types in a string using the built-in string
-        testing methods (isdigit, isalpha, isalnum, islower, isupper,
-        isspace)
-    7.  Splitting a string into a list using the "split" method
-13. File Input & Output
-    1.  Opening a file for reading
+    -   Testing a string for substrings using the `in` operator
+    -   Detecting character types in a string using the built-in string
+        testing methods (`isdigit`, `isalpha`, `isalnum`, `islower`, `isupper`,
+        `isspace`)
+    -   Splitting a string into a list using the `split` method
 
 
 
@@ -200,13 +161,13 @@ reacts.
 
   5 \* 'a' + 5 \* 'b'
 
-  \[1\] + \[2\]
+  [1] + [2]
 
-  \['a', 'b'\] + \['c', 'd'\]
+  ['a', 'b'] + ['c', 'd']
 
-  \[2\] \* 4 + \[4\] \* 2
+  [2] \* 4 + [4] \* 2
 
-  \[1,2,3\] + 3 \* \[4\]
+  [1,2,3] + 3 \* [4]
 
   99 % 3
 
@@ -223,7 +184,7 @@ reacts.
   (True or False) and (False and True)
 
   x = 'giraffe'\
-  x\[2\] \# evaluate the result of this line of code
+  x[2] \# evaluate the result of this line of code
 
   x = 'G+I+R+A+F+F+E'\
   x.split("+") \# evaluate the result of this line of code
@@ -489,10 +450,10 @@ separate Python program.)*
     that the prices entered are greater than 0 (but you can assume they
     will be numeric and not alphanumeric). Once you have collected all
     the prices you should print out the following:
-    1.  The average price
-    2.  The highest price
-    3.  The lowest price
-    4.  If the user spent more than 100, you can give them the lowest
+    -   The average price
+    -   The highest price
+    -   The lowest price
+    -   If the user spent more than 100, you can give them the lowest
         priced item for free. In this case you should congratulate them,
         print out their total bill and average price without the lowest
         priced item factored in.
@@ -527,19 +488,19 @@ separate Python program.)*
     message. Here's a sample running of the program:
 
         0 GBOBI
-        1 OOOIG
-        2 NIIIN
-        3 BIGNN
-        4 OGOIN
-        5 BNOGB
+        - OOOIG
+        - NIIIN
+        - BIGNN
+        - OGOIN
+        - BNOGB
 
         .......
 
-        3856 BGIIO
-        3857 NBONN
-        3858 IBNGI
-        3859 GNOBN
-        3860 BINGO
+        - 56 BGIIO
+        - 57 NBONN
+        - 58 IBNGI
+        - 59 GNOBN
+        - 60 BINGO
         Finally, after 3860 tries!
 
 12. You have been asked to write a "slot machine" program which should
@@ -628,10 +589,10 @@ separate Python program.)*
         Enter a number between 1 and 10:  6
         Enter a number between 1 and 10:  5
 
-        1. 5 and 1
-        2. 6 and 3
-        3. 3 and 10
-        4. 5 and 6
+        -  5 and 1
+        -  6 and 3
+        -  3 and 10
+        -  5 and 6
         Your numbers were found on roll # 4
 
 17. Write a function called “line” that accepts a string as an argument.
