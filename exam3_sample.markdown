@@ -67,7 +67,7 @@ for the final exam.
     -   Type conversion (string to int, int to strings, etc)
 4.  Basic String Manipulation
     -   Combining two strings (concatenation)
-    -   Multiplying a string (x = 'hi' \* 5)
+    -   Multiplying a string (`x = 'hi' * 5`)
     -   Case manipulation (ex., `x = str.lower('JaSOn')` converts the string
         literal 'JaSOn' to 'jason)
     -   Calculating string length using the len() function
@@ -154,17 +154,17 @@ reacts.
 
 - `  'a' + 'b'`
 
-- `  'a' \* 5`
+- `  'a' * 5`
 
-- `  5 \* 'a' + 5 \* 'b'`
+- `  5 * 'a' + 5 * 'b'`
 
 - `  [1] + [2]`
 
 - `  ['a', 'b'] + ['c', 'd']`
 
-- `  [2] \* 4 + [4] \* 2`
+- `  [2] * 4 + [4] * 2`
 
-- `  [1,2,3] + 3 \* [4]`
+- `  [1,2,3] + 3 * [4]`
 
 - `  99 % 3`
 
@@ -747,4 +747,4 @@ separate Python program.)
     lottery.sort()
 
     print (lottery)
---> 
+-->
