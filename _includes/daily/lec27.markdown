@@ -11,7 +11,7 @@ Mon,12/09
 <div class="column_materials">
 <p markdown="block">
 
-
+[practice questions for the final exam](exam3_sample.html)
 
 </p>
 </div>
@@ -25,4 +25,3 @@ Mon,12/09
 </div>
 
 </div>
-
