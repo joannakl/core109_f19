@@ -180,9 +180,8 @@ reacts.
 
 - `  (True or False) and (False and True)`
 
-- <br>
-`  x = 'giraffe'`<br>
-`  x[2] \# evaluate the result of this line of code`
+- `  x = 'giraffe' `
+`   x[2] # evaluate the result of this line of code`
 
 
 - `  'cat' + 'dog'`
@@ -199,13 +198,15 @@ reacts.
 Trace the output of the following programs (each shaded box below is a
 separate Python program.)
 
+1.
+
     count = 0
 
     while count < 10:
         print ('Hello')
         count += 1
 
-------
+2.
 
     x = 10
     y = 0
@@ -215,7 +216,7 @@ separate Python program.)
         x = x - 1
         y = y + 1
 
-------
+3.
 
     keepgoing = True
     x = 100
@@ -226,29 +227,29 @@ separate Python program.)
         if x < 50:
             keepgoing = False
 
-------
+4.
 
     x = 45
 
     while x < 50:
         print (x)
 
-------
+5.
 
     for x in [1,2,3,4,5]:
         print (x)
 
-------
+6.
 
     for p in range(1,10):
         print (p)
 
-------
+7.
 
     for z in range(-500,500,100):
         print (z)
 
-------
+8.
 
     x = 10
     y = 5
@@ -256,7 +257,7 @@ separate Python program.)
     for i in range(x-y*2):
         print ("%", i)
 
-------
+9.
 
     c = 0
 
@@ -266,26 +267,23 @@ separate Python program.)
 
     print (c)
 
-------
+10.
 
     x = [1,2,3]
 
     counter = 0
     while counter < len(x):
-
         print (x[counter] * '%')
-
         for y in x:
             print (y * '*')
-
         counter += 1
 
-------
+11.
 
     for x in 'lamp':
         print (str.upper(x))
 
-------
+12.
 
     x = 'one'
     y = 'two'
@@ -295,7 +293,7 @@ separate Python program.)
         print (x[counter], y[counter])
         counter+=1
 
-------
+13.
 
     x = "apple,pear,peach"
     y = x.split(",")
@@ -303,7 +301,7 @@ separate Python program.)
     for z in y:
         print (z)
 
-------
+14.
 
     x = 'apple,pear,peach,grapefruit'
     y = x.split(',')
@@ -314,7 +312,7 @@ separate Python program.)
         else:
             print (str.upper(z))
 
-------
+15.
 
     def myfun(a):
         print (a * '#')
@@ -325,7 +323,7 @@ separate Python program.)
     for z in y:
         myfun(int(z))
 
-------
+16.
 
     # Trace the output of the following program.  Then rewrite the program using a "while"
     # loop instead of a "for" loop.  You don't need to re-write the list - just rewrite
@@ -345,43 +343,43 @@ separate Python program.)
         print (counter, pokemon[counter])
         counter += 2
 
-------
+17.
 
     word = "pikachu"
     for c in word:
         print (c)
 
-------
+18.
 
     word = "pikachu"
     for i in range(0, len(word)):
         print (i, word[i])
 
-------
+19.
 
     word = "pikachu"
     for i in range(len(word)-1, -1, -1):
         print (i, word[i])
 
-------
+20.
 
     word = "pikachu"
     for i in range(0, len(word), 2):
         print (i, word[i])
 
-------
+21.
 
     word = "pikachu"
     print (word[0:len(word):2])
 
-------
+22.
 
     word = "hello, world"
     newword = word[0:2] + word[-2:]
 
     print (newword)
 
-------
+23.
 
     def foo(a):
         b = ""
@@ -392,7 +390,7 @@ separate Python program.)
 
     print( foo("hello there!") )
 
-------
+24.
 
     phrase = "4 score and 7 years ago ..."
 
@@ -406,9 +404,9 @@ separate Python program.)
             else:
                 print (x-1, end="")
 
-------
 
-**Programming Challenges**
+
+## Programming Challenges
 
 1.  Write a program that prompts the user to enter in 5 colors. Print
     out the colors entered in alphabetical orders. Then print out the
