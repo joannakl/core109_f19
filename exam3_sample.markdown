@@ -180,9 +180,6 @@ reacts.
 
 - `  (True or False) and (False and True)`
 
-- `  x = 'giraffe' `
-`   x[2] # evaluate the result of this line of code`
-
 
 - `  'cat' + 'dog'`
 
@@ -192,6 +189,12 @@ reacts.
 
 - `  True or False or False or True`
 
+
+- assume that `  x = 'giraffe' ` what are the values of the following expressions?
+    - `x[2]`
+    - `len(x)`
+    - `x[:3]`
+    - `x[4:]`
 
 ## Trace the Output
 
@@ -275,13 +278,13 @@ separate Python program.)
     while counter < len(x):
         print (x[counter] * '%')
         for y in x:
-            print (y * '*')
+            print (y * ' * ')
         counter += 1
 
 11.
 
     for x in 'lamp':
-        print (str.upper(x))
+        print (x.upper())
 
 12.
 
@@ -293,35 +296,15 @@ separate Python program.)
         print (x[counter], y[counter])
         counter+=1
 
-13.
-
-    x = "apple,pear,peach"
-    y = x.split(",")
-
-    for z in y:
-        print (z)
-
 14.
 
-    x = 'apple,pear,peach,grapefruit'
-    y = x.split(',')
+    y = ["apple","pear","peach","grapefruit"]
 
     for z in y:
         if z < 'm':
-            print (str.lower(z))
+            print (z.lower())
         else:
-            print (str.upper(z))
-
-15.
-
-    def myfun(a):
-        print (a * '#')
-
-    x = "1-2-3-4-5"
-    y = x.split("-")
-
-    for z in y:
-        myfun(int(z))
+            print (z.upper())
 
 16.
 
@@ -335,13 +318,6 @@ separate Python program.)
     for i in range(0, len(pokemon), 2):
         print (i, pokemon[i])
 
-
-    # rewrite
-    counter = 0
-
-    while counter < len(pokemon):
-        print (counter, pokemon[counter])
-        counter += 2
 
 17.
 
@@ -379,17 +355,6 @@ separate Python program.)
 
     print (newword)
 
-23.
-
-    def foo(a):
-        b = ""
-        for c in a:
-            if c.isalpha():
-                b+=c
-        return b
-
-    print( foo("hello there!") )
-
 24.
 
     phrase = "4 score and 7 years ago ..."
@@ -417,7 +382,7 @@ separate Python program.)
     already added the color 'yellow'"). When the user types the string
     "exit" you should stop collecting colors. The print out the colors
     entered in alphabetical order.
-3.  Rewrite the following program using a "for" loop:
+3.  Rewrite the following program using a `for` loop:
 
         x = [1,2,3,4,5]
 
@@ -426,14 +391,14 @@ separate Python program.)
             print (x[counter])
             counter += 1
 
-4.  Rewrite the following program using a "while" loop:
+4.  Rewrite the following program using a `while` loop:
 
         x = ['a','b','c','d']
 
         for y in x:
             print (y)
 
-5.  Rewrite the following program using a "while" loop:
+5.  Rewrite the following program using a `while` loop:
 
         x = 'python'
 
@@ -451,68 +416,58 @@ separate Python program.)
         priced item for free. In this case you should congratulate them,
         print out their total bill and average price without the lowest
         priced item factored in.
-7.  Write a function that accepts a single string as an argument. Your
-    function should then determine if the string contains all uppercase
-    characters. If so, return True, and if not return False.
-8.  Write a function that accepts a single string as an argument.
-    Convert the string to all lowercase and return the new string.
-9.  Write a program that continually prompts the user to enter in a
-    number. Evaluate whether the value entered is a valid number (float
-    or int). If it is, print out the number. If it isn't, ask the user
-    to try again. Your program should not crash if the user enters an
-    invalid number (i.e. "twenty" is invalid since it does not contain
-    all numeric digits)
-10. Write a function that generates a random letter from the string
-    'BINGO'. Here is a sample running of this program:
 
-        x = generate_bingo_letter()
-        print (x)
+7.  Write a program that accepts a single string entered by the user, then tests if the string contains all uppercase characters. If so, the program should print "ALL UPPER", otherwise, the program should print "not upper".
 
-        >> N
+9.  Write a program that prompts the user for three numbers. The program should detect if the values entered by the user are numerical or not. If not, the program should re-prompt the user for that number (i.e., if the user enters "hello" instead of a number, they should be prompted for it again). Once the user enters three successful numbers, print the smallest of them.
 
-        x = generate_bingo_letter()
-        print (x)
+10. Write a program that generates a random letter from the word "BINGO". This means that there are five possible outcomes and each of them is equally likely.  
 
-        >> O
-
-11. Take your "bingo" function and write a program that continually
-    generates 5 random letters from the string 'BINGO' and print them
-    out along with the attempt number. If all 5 letters spell the word
+11. Use the idea from the previous program to write a program that continually
+    generates 5 random letters from the string 'BINGO' and prints them
+    out along with the attempt number. If the 5 letters spell the word
     "BINGO" you can end the program and print out a congratulatory
     message. Here's a sample running of the program:
 
-        0 GBOBI
-        - OOOIG
-        - NIIIN
-        - BIGNN
-        - OGOIN
-        - BNOGB
-
-        .......
-
-        - 56 BGIIO
-        - 57 NBONN
-        - 58 IBNGI
-        - 59 GNOBN
-        - 60 BINGO
+        1 OOOIG
+        2 NIIIN
+        3 BIGNN
+        4 OGOIN
+        5 BNOGB
+        ...
+        56 BGIIO
+        57 NBONN
+        58 IBNGI
+        59 GNOBN
+        60 BIGNO
+        ...
+        3860 BINGO
         Finally, after 3860 tries!
 
-12. You have been asked to write a "slot machine" program which should
-    randomly arrange three graphical symbols on the screen. All possible
+    - What is the probability of generating "BINGO" on any given try?
+
+12. You have been asked to write a _slot machine_ program which should
+    randomly arrange three graphical _symbols_ on the screen. All possible
     symbols are defined in the following list:
 
         symbols = ['cherry', 'pear', 'star', 'seven', 'watermelon']
 
     Write a program that randomly selects three of these symbols and
-    prints them out to the user. You cannot repeat a symbol (i.e. you
-    cannot select 'cherry' twice). Here's are a few sample runnings of
-    the program:
+    prints them out to the user. The program terminates when the user wins (i.e.,
+    they get the output in which all _symbols_ are the same).  Here is  a sample run of the program:
 
-        >> cherry star seven
+        cherry star seven
+        seven watermelon star
+        pear star cherry
+        ...
+        pear pear seven
+        cherry star pear
+        ...
+        cherry cherry cherry
 
-        >> seven watermelon star
-
-        >> pear star cherry
+    - How many possible outcomes are there for each attempted try?
+    - How many winning outcomes are there?
+    - What is the probability of winning with a single try?
 
 13. Write a program that generates a random series of lottery numbers
     for the user. Your program should generate 5 unique random numbers
@@ -522,131 +477,35 @@ separate Python program.)
 
         Your lottery #'s are:
         [19, 61, 62, 78, 99]
-        >>> ================================ RESTART
+        ================================
 
         Your lottery #'s are:
         [1, 41, 64, 66, 78]
-        >>> ================================ RESTART
+        ================================
 
         Your lottery #'s are:
         [19, 20, 28, 41, 97]
 
-14. Body Mass Index (BMI) is a measurement that is used to classify the
-    weight of an individual as underweight, normal weight, overweight or
-    obese. The formula for calculating BMI is as follows:*BMI = (Weight
-    in pounds \* 703) / (height in inches)^2^*. BMI values can be
-    interpreted as follows:
+    - What is the probability that the lottery numbers are all even?
+    - What is the probability that the lottery numbers contain 100?
 
-    -   Below 18.5 - underweight
-    -   18.5 - 24.9 - normal
-    -   25 - 29.9 - overweight
-    -   30+ – obese
+14. Write a program that prompts the user to enter a string (this could be a very long string, e.x., a text of a book). Calculate and display the frequency of each vowel.
 
-     
+15. Your program is given two lists:
+    - list of movie titles (strings)
+    - list of lead actor names separated by commas, for each of the movies for the first list
 
-    Write a **function** called "calc\_bmi" that accepts two arguments -
-    a weight value in pounds (float) and a height value in inches
-    (float). You can assume the arguments supplied are valid floats.
-    Using these arguments calculate BMI using the formula above, and
-    **return** a the BMI (float) and a description (string). Use IPO
-    notation to document your function.
+    Write the program that allows the user to enter the name of an actor and prints
+    all the movies in which the actor performed.
 
-15. Write a program that asks the user for their weight in pounds (one
-    value) and their height in feet and inches (two values). You cannot
-    assume anything about these values, so validate the input as
-    necessary. Next, use the function you wrote for question \#14 to
-    calculate the user's BMI and print it out for them as follows. Your
-    program does not need to repeat. Note that 12 inches = 1 foot. (10
-    points)
+    Continue your program after the following list definitions (your program should
+    work even if the lists are changed):
 
-        Enter weight in pounds:  none of your business
-        Sorry, that's not a valid weight.  Try again
-        Enter weight in pounds:  150
-        Enter height in feet: 6
-        Enter height in inches:  none
-        Sorry, that's not a valid height.  Try again.
-        Enter a height in inches:  0
+        titles = ["Casablanca", "To Kill a Mockingbird (1962)", "The Treasure of the Sierra Madre", "The Maltese Falcon", "The Big Sleep", "Roman Holiday (1953)", "The Philadelphia Story", "Bringing Up Baby", "Charade", "The African Queen", "My Fair Lady", "Breakfast at Tiffany's", "Spellbound (1945)", "The Guns of Navarone (1961)", "The Omen"]
 
-        A 6'0 person weighting 150lbs has a BMI of 20.3414352.  This is considered normal weight.
+        actors = ["Humphrey Bogart, Ingrid Bergman", "Gregory Peck, John Megna", "Humphrey Bogart, Walter Huston", "Humphrey Bogart, Mary Astor", "Humphrey Bogart, Lauren Bacall", "Gregory Peck, Audrey Hepburn", "Cary Grant, Katharine Hepburn", "Katharine Hepburn, Cary Grant", "Cary Grant, Audrey Hepburn", "Humphrey Bogart, Katharine Hepburn", "Audrey Hepburn, Rex Harrison", "Audrey Hepburn, George Peppard", "Ingrid Bergman, Gregory Peck", "David Niven, Gregory Peck", "Gregory Peck, Lee Remick"]
 
-16. Write a function that rolls a 10 sided die. Your function should
-    take no arguments and should return the result of the die roll. Then
-    write a program that lets the user enter two integers (validate the
-    values – the user could enter any data type here). Next, continually
-    uses your function to roll two dice until both die roll the numbers
-    that the user entered at the same time. Note that the numbers may
-    appear in any order (i.e. if the user enters 6 and 5 a valid end
-    state of your program would be the rolls (6,5) or (5,6). Keep track
-    of how many rolls it took to reach this state. Here is a sample
-    running of this program:
-
-        Enter a number between 1 and 10:  6
-        Enter a number between 1 and 10:  5
-
-        -  5 and 1
-        -  6 and 3
-        -  3 and 10
-        -  5 and 6
-        Your numbers were found on roll # 4
-
-17. Write a function called “line” that accepts a string as an argument.
-    Your function should generate a string pattern based on the argument
-    provided. Here are the rules:
-    -   If the string provided is a number, and that number is even,
-        generate a pattern of hash signs that matches the number
-        provided. For example, calling line("4") will generate the
-        following:
-
-            ####
-
-        and calling line("10") will generate the following:
-
-            ##########
-
-    -   If the string provided is a number, and that number is odd,
-        generate a pattern of stars using the number provided. For
-        example, calling line("3") will generate the following:
-
-            ***
-
-        and calling line("9") will generate the following:
-
-            *********
-
-        If the string provided is not a number you can simply generate
-        and return empty string.
-
-    Once you have generated your pattern you should return the result
-    when completed. You cannot assume anything about the supplied
-    string, and your function should avoid raising any exceptions that
-    will cause your program to crash. If an exception is raised you can
-    return an empty string.
-18. Write a FUNCTION called "valid\_n\_number" that determines if a NYU
-    Student ID is valid. For the purpose of this question a valid NYU
-    Student ID is defined as follows:
-
-    -   exactly 9 characters long
-    -   begins with the uppercase character 'N'
-    -   all characters beside the beginning 'N' character must be
-        numbers
-
-    Your function should accept a test "N number" as an ARGUMENT
-    (String) and RETURN a status value (Boolean). Here's a sample
-    program that uses your function:
-
-        test1 = valid_n_number("N123")
-        test2 = valid_n_number("N1234567890")
-        test3 = valid_n_number("P12345678")
-        test4 = valid_n_number("NXYZ!5678")
-        test5 = valid_n_number("N12345678")
-
-        print (test1, test2, test3, test4, test5)
-
-    And here's the expected output:
-
-        False False False False True
-
- 
+<!--
 
 **Programming Problems – Solutions**
 
@@ -776,29 +635,21 @@ separate Python program.)
 
 **Problem \#7**
 
-    def uppercase_test(s):
+    s = input("Enter a string: ")
 
-        # look at each character in s and determine
-        # if it is uppercase or lowercase
-        for char in s:
+    # look at each character in s and determine
+    # if it is uppercase or lowercase
+    upper == True
+    for char in s:
+        if char.isupper() == False:
+            return False
 
-            if char.isupper() == False:
-                return False
+    if upper :
+        print("ALL UPPER")
+    else :
+        print("not upper")
 
-        return True
-
-    x = uppercase_test("CRAIG")
-
-    print (x)
-
-**Problem \#8**
-
-    def lowercase_converter(s):
-
-        s = str.lower(s)
-        return s
-
-**Problem \#9**
+**Problem \#9**   !!!!
 
     keepgoing = True
 
@@ -817,48 +668,49 @@ separate Python program.)
 
     print (num)
 
-**Problems \#10 & \#11**
+**Problems \#10**
 
     import random
 
-    def generate_bingo_letter():
+    # the string that is the source of random letters
+    source = 'BINGO'
 
-        # what is the string we are using as a source?
-        source = 'BINGO'
+    # generate a random integer between 0 and 4
+    num = random.randint(0,4)
 
-        # generate a random integer between 0 and 4
-        num = random.randint(0,4)
+    # get the letter at that position
+    letter = source[num]
 
-        # grab out the substring
-        letter = source[num]
+    # print it
+    print ("the randome letter is:", letter)
 
-        # send it back
-        return (letter)
+**Problems \#11**
 
-    keepgoing = True
+    import random
 
-    counter = 1
+    source = "BINGO"
+    counter = 0
+    try = ""
 
-    while keepgoing == True:
+    while try != source:
 
         # generate 5 random characters
-        c1 = generate_bingo_letter()
-        c2 = generate_bingo_letter()
-        c3 = generate_bingo_letter()
-        c4 = generate_bingo_letter()
-        c5 = generate_bingo_letter()
+        c1 = source[random.randint(0,4)]
+        c2 = source[random.randint(0,4)]
+        c3 = source[random.randint(0,4)]
+        c4 = source[random.randint(0,4)]
+        c5 = source[random.randint(0,4)]
 
         # build a word out of this letter
-        word = c1 + c2 + c3 + c4 + c5
+        try = c1 + c2 + c3 + c4 + c5
 
-        # does this spell bingo?
-        if word == 'BINGO':
-            print ("got it after", counter, "tries!")
-            keepgoing = False
-        else:
-            counter += 1
+        counter += 1
 
-**Problem \#12**
+        print (counter, try )
+
+    print ("Finally, after", counter, "tries!")
+
+**Problem \#12**  !!!
 
     import random
 
@@ -895,129 +747,4 @@ separate Python program.)
     lottery.sort()
 
     print (lottery)
-
-**Problems \#14 and \#15**
-
-    def calc_bmi(weight, height):
-
-        bmi = (weight*703)/(height**2)
-
-        if bmi < 18.5:
-            return bmi, "Underweight"
-        elif bmi < 25:
-            return bmi, "Normal weight"
-        elif bmi < 30:
-            return bmi, "Overweight"
-        else:
-            return bmi, "Obese"
-
-
-
-    # get weight
-    while True:
-        try:
-            weight = float(input("Enter weight in pounds: "))
-        except:
-            print ("Not a valid weight, try again")
-        else:
-            if weight < 0:
-                print ("Negative weight values are not allowed")
-            else:
-                break
-
-    # get height in feet and inches
-    while True:
-        try:
-            height_feet = int(input("Enter height in feet: "))
-            height_inches = int(input("Enter height in inches: "))
-        except:
-            print ("Not a valid height, try again")
-        else:
-            if height_feet <= 0 or height_inches < 0 or height_inches >= 12:
-                print ("Invalid entry, try again")
-            else:
-                break
-
-    # calc bmi
-    bmi, description = calc_bmi(weight, height_feet*12+height_inches)
-
-    print ("A", height_feet, "'", height_inches, "person weighing", weight, "lbs has a BMI of", bmi, ". This is considered", description)
-
-**Problem \#16**
-
-    import random
-
-    def roll_10_sided_die():
-        d1 = random.randint(1,10)
-        d2 = random.randint(1,10)
-        return d1, d2
-
-    while True:
-        try:
-            user_d1 = int(input("Enter a number between 1 and 10: "))
-            user_d2 = int(input("Enter a number between 1 and 10: "))
-        except:
-            print ("Invalid number, try again")
-        else:
-            if user_d1 < 1 or user_d1 > 10 or user_d2 < 1 or user_d2 > 10:
-                print ("Numbers must be between 1 and 10, try again")
-            else:
-                break
-
-    counter = 0
-    while True:
-
-        counter += 1
-
-        d1, d2 = roll_10_sided_die()
-
-        print (counter, ". ", d1, " and ", d2, sep="")
-
-        if (d1 == user_d1 and d2 == user_d2) or (d1 == user_d2 and d2 == user_d1):
-            print ("Your numbers were found on roll #", counter)
-            break
-
-**Problem \#17**
-
-    def line(x):
-
-        try:
-            if x.isdigit():
-                x = int(x)
-                if x % 2 == 0:
-                    return x*"#"
-                else:
-                    return x*"*"
-            else:
-                return ""
-        except:
-            return ""
-
-
-    print (line("4"))
-    print (line("5"))
-    print (line("apple"))
-    print (line(100))
-
-**Problems \#18**
-
-    def valid_n_number(number):
-
-        if len(number) != 9:
-            return False
-        else:
-            if number[0] != "N":
-                return False
-            else:
-                testdigits = number[1:]
-                if testdigits.isdigit():
-                    return True
-                else:
-                    return False
-
-
-    print (valid_n_number("N123") )
-    print (valid_n_number("N1234567890") )
-    print (valid_n_number("P12345678") )
-    print (valid_n_number("NXYZ!5678") )
-    print (valid_n_number("N12345678") )
+--> 
