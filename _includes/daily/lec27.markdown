@@ -11,7 +11,12 @@ Mon,12/09
 <div class="column_materials">
 <p markdown="block">
 
+
+Review for the exam.
+
 [practice questions for the final exam](exam3_sample.html)
+
+
 
 </p>
 </div>

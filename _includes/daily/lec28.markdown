@@ -12,6 +12,7 @@ Wed,12/11
 <p markdown="block">
 
 
+Review for the exam.
 
 </p>
 </div>
@@ -25,4 +26,3 @@ Wed,12/11
 </div>
 
 </div>
-

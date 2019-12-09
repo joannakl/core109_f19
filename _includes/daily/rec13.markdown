@@ -10,9 +10,13 @@ Recitation 13 <br>
 <p markdown="block">
 
 Student presentations:
-- presentation 1
-- presentation 2
+- _United States Gun Policies And Shootings_ by Chelsea
+- _Probability in Mario Party_ by Isaac
 
+
+No worksheet for today.
+
+Lab 11 available in your JupyterHub drive at the start of recitation.
 
 </p>
 </div>

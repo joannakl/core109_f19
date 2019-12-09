@@ -14,7 +14,7 @@ Wed,12/04
 Student presentations:
 - _Probabilities in Gambling Games_ by Andrey
 - _"Master/Slave" Terminology_ by Sol
-- _???_ by Keilly
+- _Providing Educational Assistance to Underprivledged Children_ by Keilly
 
 
 Trigonometry and art.
