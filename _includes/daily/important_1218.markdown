@@ -10,7 +10,7 @@ Wed, 12/18
 <div class="column_recitation">
 <p markdown="block">
 
-__final exam, 8:00-9:50am__ in SILV 507 (lecture room, not in the lab)
+__final exam, 8:00-9:50am in SILV 403 (this is NOT our usual room)__ 
 
 - bring a calculator (I will have a few calculators in the front for students
 who do not bring their own, but these will be shared)
