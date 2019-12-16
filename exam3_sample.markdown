@@ -505,7 +505,7 @@ separate Python program.)
 
         actors = ["Humphrey Bogart, Ingrid Bergman", "Gregory Peck, John Megna", "Humphrey Bogart, Walter Huston", "Humphrey Bogart, Mary Astor", "Humphrey Bogart, Lauren Bacall", "Gregory Peck, Audrey Hepburn", "Cary Grant, Katharine Hepburn", "Katharine Hepburn, Cary Grant", "Cary Grant, Audrey Hepburn", "Humphrey Bogart, Katharine Hepburn", "Audrey Hepburn, Rex Harrison", "Audrey Hepburn, George Peppard", "Ingrid Bergman, Gregory Peck", "David Niven, Gregory Peck", "Gregory Peck, Lee Remick"]
 
-<!--
+---
 
 **Programming Problems – Solutions**
 
@@ -541,21 +541,16 @@ separate Python program.)
     colors = []
 
     # ask the user for an unlimited number of colors
-    keepgoing = True
-
-    while keepgoing == True:
+    color = ""
+    while color.lower() != "exit" :
 
         # ask the user for a color
         color = input('Give me a color: ')
 
         # does the user want to exit?
-        if color == 'exit':
-            keepgoing = False
-
-        elif color in colors:
+        if  color in colors:
             print ("Sorry, that's already in the list.")
-
-        else:
+        elif color != "exit":
             colors.append(color)
 
     # sort the list
@@ -596,14 +591,10 @@ separate Python program.)
 
     prices = []
 
-    # grab 5 values from the user ensuring that they are
-    # all greater than 0
-    keepgoing = True
-
     # counter variable
     total = 0
 
-    while keepgoing == True:
+    while len(prices) < 5 :
 
         # grab a price
         price = float(input("Give me a price: "))
@@ -614,10 +605,6 @@ separate Python program.)
         else:
              prices.append(price)
              total += price
-
-        # see if we can get out of the loop
-        if len(prices) == 5:
-             keepgoing = False
 
     print ("Average: ", total / 5)
     print ("Highest: ", max(prices))
@@ -635,116 +622,128 @@ separate Python program.)
 
 **Problem \#7**
 
-    s = input("Enter a string: ")
+    string = input("Enter a string: ")
+    if string.isupper():
+        print ("ALL UPPER")
+    else:
+        print ("not upper")
 
-    # look at each character in s and determine
-    # if it is uppercase or lowercase
-    upper == True
-    for char in s:
-        if char.isupper() == False:
-            return False
+**Problem \#8**
 
-    if upper :
-        print("ALL UPPER")
-    else :
-        print("not upper")
+    numbers = []
 
-**Problem \#9**   !!!!
+    while len(numbers) < 3 :
+        num = input("Enter a number: ")
+        if num.isdigit() :
+            numbers.append(int(num))
+        else :
+            print ("Sorry, this is not a number.")
+    print ("The smallest of your numbers is ", min(numbers),".")
 
-    keepgoing = True
 
-    while keepgoing:
+**Problem \#9**
 
-        # test to see if the number is truly a number
-        try:
-            num = float(input("Give me a number: "))
-
-        # if there was an error, do this:
-        except:
-            print ("Sorry, bad number!  Try again.")
-
-        else:
-            keepgoing = False
-
-    print (num)
-
-**Problems \#10**
-
-    import random
-
-    # the string that is the source of random letters
+    # what is the string we are using as a source?
     source = 'BINGO'
 
     # generate a random integer between 0 and 4
     num = random.randint(0,4)
 
-    # get the letter at that position
+    # grab out the substring
     letter = source[num]
 
-    # print it
-    print ("the randome letter is:", letter)
+    # send it back
+    print (letter)
 
-**Problems \#11**
+**Problems \#10**
 
-    import random
+    # what is the string we are using as a source?
+    source = 'BINGO'
 
-    source = "BINGO"
+
+    target = ''
     counter = 0
-    try = ""
 
-    while try != source:
+    while target != source :
 
-        # generate 5 random characters
-        c1 = source[random.randint(0,4)]
-        c2 = source[random.randint(0,4)]
-        c3 = source[random.randint(0,4)]
-        c4 = source[random.randint(0,4)]
-        c5 = source[random.randint(0,4)]
-
-        # build a word out of this letter
-        try = c1 + c2 + c3 + c4 + c5
-
+        # generate five random letters and apped them to target
+        target = ''
+        for i in range (5):
+            num = random.randint(0,4)
+            target = target + source[num]
         counter += 1
+        print (counter, target)
 
-        print (counter, try )
 
     print ("Finally, after", counter, "tries!")
 
-**Problem \#12**  !!!
+**Problem \#11**
 
     import random
 
     symbols = ['cherry', 'pear', 'star', 'seven', 'watermelon']
 
-    # select 3 symbols at random
-    for x in range (3):
+    won = False
+    # keep playing until the win
 
-         # get a random number between 0 and the length of our list
-         i = random.randint(0, len(symbols) - 1)
+    while not won :
 
-         # print out the symbol at this position
-         print (symbols[i], ' ', end = '')
+        # get three random numbers between 0 and the length of our list
+        i1 = random.randint(0, len(symbols) - 1)
+        i2 = random.randint(0, len(symbols) - 1)
+        i3 = random.randint(0, len(symbols) - 1)
 
-         # remove the symbol from the list
-         symbols.remove(symbols[i])
+        # print out the symbols
+        print (symbols[i1], symbols[i2], symbols[i3] )
 
-**Problem \#13**
+        # check if this is a win
+        if i1 == i2 and i2 == i3 :
+            won = True
+
+**Problem \#12**
 
     import random
 
     lottery = []
 
-    for x in range(5):
+    while len(lottery) < 5:
 
-        while True:
-
-            num = random.randint(1,100)
-            if num not in lottery:
-                lottery.append(num)
-                break
+        num = random.randint(1,100)
+        if num not in lottery:
+            lottery.append(num)
 
 
     lottery.sort()
 
     print (lottery)
--->
+
+**Problem \#13**
+
+    string = input ("Enter your string: ")
+
+    vowels = ['a', 'e', 'i', 'o', 'u' ]
+    counters = [0] * len(vowels)
+
+    for c in string.lower() :
+        for index in range(len(vowels)) :
+            if vowels[index] == c :
+                counters[index] += 1
+
+    for index in range(len(vowels)) :
+        print (vowels[index], ": ", counters[index], sep='')
+
+
+
+**Problem \#14**
+
+    titles = ["Casablanca", "To Kill a Mockingbird (1962)", "The Treasure of the Sierra Madre", "The Maltese Falcon", "The Big Sleep", "Roman Holiday (1953)", "The Philadelphia Story", "Bringing Up Baby", "Charade", "The African Queen", "My Fair Lady", "Breakfast at Tiffany's", "Spellbound (1945)", "The Guns of Navarone (1961)", "The Omen"]
+
+    actors = ["Humphrey Bogart, Ingrid Bergman", "Gregory Peck, John Megna", "Humphrey Bogart, Walter Huston", "Humphrey Bogart, Mary Astor", "Humphrey Bogart, Lauren Bacall", "Gregory Peck, Audrey Hepburn", "Cary Grant, Katharine Hepburn", "Katharine Hepburn, Cary Grant", "Cary Grant, Audrey Hepburn", "Humphrey Bogart, Katharine Hepburn", "Audrey Hepburn, Rex Harrison", "Audrey Hepburn, George Peppard", "Ingrid Bergman, Gregory Peck", "David Niven, Gregory Peck", "Gregory Peck, Lee Remick"]
+
+
+    actor = input("Enter the name: ")
+
+    for i in range(len(actors))  :
+
+        if actor in actors[i] :
+            print(titles[i])
